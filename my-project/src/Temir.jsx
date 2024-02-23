@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 const Timer = () => {
   const [seconds, setSeconds] = useState(0);
   const [isActive, setIsActive] = useState(false);
@@ -28,7 +29,7 @@ const Timer = () => {
   };
 
   return (
-    <div className=" bg-stone-600 w-full h-[100vh] flex items-center justify-center flex-col space-y-3">
+    <div className=" bg-indigo-950 w-full h-[100vh] flex items-center justify-center flex-col space-y-3  bg-[url('./assets/bg-stars.svg')]">
       
       <span className=" text-white text-[20px] font-bold  w-[240px] h-[60px] bg-stone-800 text-center flex justify-center items-center rounded-md ">
       <h1 >Timer: 
